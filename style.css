@@ -95,7 +95,7 @@ nav ul a:hover, nav ul a:focus {
 .upper {
 	margin-top:50px;
 	margin-bottom:20px;
-	height:380px;
+	height:350px;
 	width:529px;
 }
 
@@ -117,10 +117,10 @@ nav ul a:hover, nav ul a:focus {
 
 .left_content p {
 	display:table-cell;
-	font-size:16px;
+	font-size:15px;
 	font-weight:bold;
 	text-align:center;
-	padding-top:10px;
+	padding-top:5px;
 	width:100px;
 	vertical-align:bottom;
 }
@@ -136,12 +136,46 @@ nav ul a:hover, nav ul a:focus {
 	background-image:-moz-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-o-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-ms-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
-	font-size:20px;
 	color:#FFF100;
-	padding-top:2px;
+	font-size:22px;
+	font-family:"DFLiSong W5-WIN-BF", "微軟正黑體";
+	padding-top:3px;
 	padding-left:30px;
-	padding-bottom:2px;
+	padding-bottom:3px;
 	margin-top:0;
 	margin-left:20px;
-	margin-right:100px;
+	margin-right:70px;
+}
+
+.right_content section h1 {
+	color:#000;
+	font-size:20px;
+	font-family:"DFLiSong W5-WIN-BF", "微軟正黑體";
+	margin-left:40px;
+	margin-bottom:12px;
+}
+
+.list_left {
+	float:left;
+	margin-left:20px;
+	margin-right:45px;
+}
+
+.list_right {
+	padding-top:10px;
+}
+
+.right_content li {
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+
+.exp_title {
+	display:block;
+	color:#F8B62d
+}
+
+.exp_content {
+	display:block;
 }
