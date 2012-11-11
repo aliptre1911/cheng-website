@@ -93,7 +93,7 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .upper {
-	margin-top:60px;
+	margin-top:50px;
 	margin-bottom:20px;
 	height:380px;
 	width:529px;
@@ -104,22 +104,18 @@ nav ul a:hover, nav ul a:focus {
 	float:left;
 }
 
-.right_content {
-	float:right;
-}
-
-.upper_container img {
+.left_content img {
 	height:100px;
 	width:100px;
 }
 
-.upper_container li {
+.left_content li {
 	display:inline-block;
 	list-style:none;
 	margin-right:18px;
 }
 
-.upper_container p {
+.left_content p {
 	display:table-cell;
 	font-size:16px;
 	font-weight:bold;
@@ -129,5 +125,18 @@ nav ul a:hover, nav ul a:focus {
 	vertical-align:bottom;
 }
 
+.right_content {
+	float:right;
+}
 
-
+.right_content header p {
+	background-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
+	font-size:20px;
+	color:#FFF100;
+	padding-top:2px;
+	padding-left:30px;
+	padding-bottom:2px;
+	margin-top:0;
+	margin-left:20px;
+	margin-right:100px;
+}
