@@ -130,6 +130,7 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .right_content header p {
+	background-image:url("image/exp-bg.png");
 	background-image:linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-moz-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
