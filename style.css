@@ -130,7 +130,11 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .right_content header p {
+	background-image:linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
+	background-image:-moz-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
+	background-image:-o-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
+	background-image:-ms-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	font-size:20px;
 	color:#FFF100;
 	padding-top:2px;
