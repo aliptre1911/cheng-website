@@ -83,12 +83,12 @@ nav ul a:hover, nav ul a:focus {
 
 .content {
 	background-color:#fff;
-	height:800px;
+	height:760px;
 	width:1060px;
 }
 
 .upper_container {
-	height:480px;
+	height:430px;
 	width:1060px;
 }
 
@@ -172,10 +172,16 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .exp_title {
+	color:#F8B62d;
 	display:block;
-	color:#F8B62d
 }
 
 .exp_content {
 	display:block;
+}
+
+.under_container {
+	background-image:url("image/under-bg.png");
+	height:330px;
+	width:1060px;
 }
