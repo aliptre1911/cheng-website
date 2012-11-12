@@ -28,8 +28,12 @@ body {
 	color:#FFF100;
 	font-family:"Book Antiqua";
 	float:left;
-	margin-left:60px;
+	margin-left:50px;
 	margin-top:10px;
+}
+
+.header .title span {
+	display:block;
 }
 
 nav {
