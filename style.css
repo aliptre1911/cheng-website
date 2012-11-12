@@ -332,5 +332,6 @@ div.footer_left, div.footer_center, div.footer_right {
 }
 
 .footer_right * {
+	border:0;
 	margin-left:3px;
 }
