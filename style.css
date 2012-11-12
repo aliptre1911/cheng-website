@@ -3,17 +3,16 @@
 body {
 	font-size:16px;
 	font-family:"DFLiSong W5-WIN-BF", "微軟正黑體";
+	font-weight:normal;
 	margin:0;
 	padding:0;
 	border:0;
-}
-
-.container {
 	width:100%;
+	height:100%;
 }
 
 .header_container {
-	background-color:#2F2725;
+	background-color:#2f2725;
 }
 
 .header {
@@ -49,7 +48,7 @@ nav ul li {
 	list-style:none;
 }
 
-nav ul a {
+nav a {
 	color:#FFF;
 	display:table-cell;
 	font-weight:bold;
@@ -64,14 +63,13 @@ nav ul a {
 	width:80px;
 }
 
-nav ul a:hover, nav ul a:focus {
+nav a:hover, nav a:focus {
 	background-color:#FFFF00;
 	color:#000;
 }
 
 .main_container {
-	background-color:#3e3a39;
-	height:100%;
+	background-color:#333333;
 	padding-bottom:50px;
 }
 
@@ -81,8 +79,7 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .panel {
-	margin-top:15px;
-	margin-bottom:15px;
+	margin:15px 0;
 }
 
 .main > .content {
@@ -151,7 +148,7 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .right_content section h1 {
-	color:#000;
+	color:#330000;
 	font-size:20px;
 	margin-left:40px;
 	margin-bottom:12px;
@@ -176,7 +173,7 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .exp_title {
-	color:#F8B62d;
+	color:#ffcc33;
 	display:block;
 }
 
@@ -208,7 +205,7 @@ nav ul a:hover, nav ul a:focus {
 
 .under h1 {
 	font-size:20px;
-	color:#f8b62d;
+	color:#ffcc33;
 	margin-top:0;
 	margin-bottom:8px;
 }
@@ -239,14 +236,11 @@ nav ul a:hover, nav ul a:focus {
 
 .under ul {
 	margin-top:0;
-}
-
-.under li {
 	list-style:none;	
 }
 
 .under .title {
-	background:rgb(220, 221, 221);
+	background-color:rgb(220, 221, 221);
 	margin-top:4px;
 	font-size:15px;
 	font-weight:bold;
@@ -269,10 +263,10 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .container footer {
-	width:1060px;
-	background:#2f2725;
+	background-color:#2f2725;
 	height:100px;
 	margin:0 auto;
+	width:1060px;
 }
 
 footer span {
@@ -300,9 +294,6 @@ div.footer_left, div.footer_center, div.footer_right {
 	float:left;
 	width:380px;
 	border-right:1px solid #fff;
-}
-
-.footer_left div {
 }
 
 .footer_center {
