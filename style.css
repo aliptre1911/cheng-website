@@ -76,7 +76,6 @@ nav ul a:hover, nav ul a:focus {
 }
 
 .main {
-	height:738px;
 	margin:0 auto;
 	width:1060px;
 }
@@ -263,8 +262,28 @@ nav ul a:hover, nav ul a:focus {
 
 .insert_bg {
 	background-color:#FFF100;
+	height:15px;
 	width:1060px;
-	height:10px;
+	margin:0 auto;
 	margin-top:2px;
-	padding:5px 0;
+}
+
+.container footer {
+	width:1060px;
+	background:#000;
+	height:100px;
+	margin:0 auto;
+}
+
+footer span {
+	color:#fff;
+	display:block;
+}
+
+.footer_left {
+	float:left;
+}
+
+.footer_right {
+	float:right;
 }
