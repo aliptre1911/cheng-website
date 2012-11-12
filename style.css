@@ -72,7 +72,7 @@ nav ul a:hover, nav ul a:focus {
 .main_container {
 	background-color:#3e3a39;
 	height:100%;
-	height:1300px;
+	padding-bottom:50px;
 }
 
 .main {
