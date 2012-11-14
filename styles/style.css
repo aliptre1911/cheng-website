@@ -23,12 +23,17 @@ body > section {
   width:1060px;
 }
 
+.header_container {
+	width:1060px;
+	margin:0 auto;
+	margin-top:14px;
+}
+
 header .title {
 	color:#FFF100;
 	font-family:"Book Antiqua";
 	float:left;
-	margin-left:173px;
-	margin-top:10px;
+	margin-left:70px;
 }
 
 header .title span {
@@ -37,9 +42,9 @@ header .title span {
 
 nav {
 	display:inline;
+	margin-right:23px;
+	margin-top:5px;
 	float:right;
-	margin-right:112px;
-	margin-top:19px;
 }
 
 nav ul li {
