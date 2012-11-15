@@ -112,11 +112,13 @@ nav a:hover, nav a:focus {
 }
 
 .left_content ul {
+	float:right;
   margin-top:10px;
-  margin-left:50px;
+  margin-right:40px;
 }
 
 .left_content li {
+	float:left;
 	display:inline-block;
 	list-style:none;
 	margin-right:20px;
