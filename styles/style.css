@@ -347,7 +347,11 @@ div.footer_left, div.footer_center, div.footer_right {
 	vertical-align:middle;
 }
 
-.footer_right * {
-	border:0;
+.footer_right div, .footer_right span, .footer_right span {
 	margin-left:3px;
+}
+
+
+.footer_right a span:hover {
+	text-decoration:underline;
 }
