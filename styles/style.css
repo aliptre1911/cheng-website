@@ -204,7 +204,7 @@ nav a:hover, nav a:focus {
 }
 
 .under_container {
-	background-image:url("image/under-bg.png");
+	background-image:url("../image/under-bg.png");
 	height:320px;
 	width:1060px;
 }
@@ -244,12 +244,6 @@ nav a:hover, nav a:focus {
   margin-bottom:13px;
 }
 
-.under ul {
-	margin-top:0;
-	list-style:none;
-  margin-bottom:32px;
-}
-
 .under_left_content {
 	float:left;
 	margin-top:40px;
@@ -266,21 +260,28 @@ nav a:hover, nav a:focus {
 	float:right;
 }
 
-.under .title {
+.under_right_content h1 {
+	margin-bottom:25px;
+}
+
+.under_right_content section {
+	margin-bottom:30px;
+}
+
+.under_right_content .title {
 	background-color:#dcdddd;
-	margin-top:4px;
 	font-size:15px;
 	font-weight:bold;
 	float:left;
 	padding:8px 3px;
+	margin-top:-6px;
 	margin-right:15px;
 }
 
-.under .content {
+.under_right_content .content {
   font-size:13px;
 	color:#595757;
   display:block;
-	margin-top:0;
 }
 
 .insert_bg {
