@@ -36,18 +36,22 @@ header .title {
 	margin-left:70px;
 }
 
+header a {
+	text-decoration:none;
+}
+
 header .title span {
 	display:block;
 }
 
 nav {
-	display:inline;
 	margin-right:23px;
 	margin-top:5px;
 	float:right;
 }
 
 nav ul li {
+	float:left;
 	border-right:1px solid #fff;
 	display:table-cell;
 	list-style:none;
@@ -97,6 +101,7 @@ nav a:hover, nav a:focus {
 }
 
 .left_content {
+	border-right:2px dashed  #000;
 	border-right:2px dashed RGBA(0, 0, 0, 0.6);
 	float:left;
 }
@@ -132,7 +137,7 @@ nav a:hover, nav a:focus {
 }
 
 .right_content header p {
-	background-image:url("image/exp-bg.png");
+	background-color:#000;
 	background-image:linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-moz-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
@@ -239,6 +244,7 @@ nav a:hover, nav a:focus {
 .under_left_content {
 	float:left;
 	margin-top:40px;
+	border-right:2px dashed #000;
 	border-right:2px dashed RGBA(0, 0, 0, 0.6);
 }
 
