@@ -23,6 +23,10 @@ body > section {
   width:1060px;
 }
 
+a {
+	text-decoration:none;
+}
+
 .header_container {
 	width:1060px;
 	margin:0 auto;
@@ -34,10 +38,6 @@ header .title {
 	font-family:"Book Antiqua";
 	float:left;
 	margin-left:70px;
-}
-
-header a {
-	text-decoration:none;
 }
 
 header .title span {
@@ -67,7 +67,6 @@ nav a {
 	margin-left:10px;
 	margin-right:10px;
 	padding:10px 2px;
-	text-decoration:none;
 	text-align:center;	
 	vertical-align:middle;
 	width:90px;
@@ -114,7 +113,7 @@ nav a:hover, nav a:focus {
 .left_content ul {
 	float:right;
   margin-top:10px;
-  margin-right:40px;
+  margin-right:38px;
 }
 
 .left_content li {
@@ -132,6 +131,14 @@ nav a:hover, nav a:focus {
 	padding-top:13px;
 	width:90px;
 	vertical-align:bottom;
+}
+
+.left_content a:link, .left_content a:visited, .left_content:active {
+	color:#000;
+}
+
+.left_content a:hover {
+	text-decoration:underline;
 }
 
 .right_content {
@@ -295,11 +302,6 @@ footer span {
 	color:#fff;
 	font-size:13px;
 	display:block;
-}
-
-
-footer a {
-	text-decoration:none;
 }
 
 footer div div {
