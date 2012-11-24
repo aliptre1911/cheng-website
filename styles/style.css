@@ -90,7 +90,7 @@ nav a:hover, nav a:focus {
 	width:1060px;
 }
 
-.upper_container {
+.exp_links_container {
 	height:400px;
 	width:1060px;
 }
@@ -102,24 +102,24 @@ nav a:hover, nav a:focus {
 	width:529px;
 }
 
-.left_content {
+.links_container {
 	border-right:2px dashed  #000;
 	border-right:2px dashed RGBA(0, 0, 0, 0.6);
 	float:left;
 }
 
-.left_content img {
+.links_container img {
 	height:90px;
 	width:90px;
 }
 
-.left_content ul {
+.links_container ul {
 	float:right;
   margin-top:10px;
   margin-right:38px;
 }
 
-.left_content li {
+.links_container li {
 	float:left;
 	list-style:none;
 	margin-right:20px;
@@ -131,23 +131,23 @@ nav a:hover, nav a:focus {
 	*padding-bottom:20px;
 }
 
-.left_content p {
+.links_container p {
 	margin-top:10px;
 }
 
-.left_content a:link, .left_content a:visited, .left_content:active {
+.links_container a:link, .links_container a:visited, .links_container:active {
 	color:#000;
 }
 
-.left_content a:hover {
+.links_container a:hover {
 	text-decoration:underline;
 }
 
-.right_content {
+.exp_container {
 	float:right;
 }
 
-.right_content header p {
+.exp_container header p {
 	background-color:#000;
 	background-image:linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
 	background-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(40%, 40%, 40%) 70%);
@@ -165,7 +165,7 @@ nav a:hover, nav a:focus {
 	margin-right:78px;
 }
 
-.right_content section h1 {
+.exp_container section h1 {
 	color:#231815;
 	font-size:20px;
   font-weight:bold;
@@ -174,25 +174,25 @@ nav a:hover, nav a:focus {
   margin-top:25px;
 }
 
-.right_content ul {
+.exp_container ul {
   list-style:disc;
   margin-top:28px;
 }
 
-.right_content li {
+.exp_container li {
 	font-size:13px;
   font-family:"微軟正黑體";
 	font-weight:bold;
 	margin-bottom:18px;  
 }
 
-.list_left {
+.exp_list_left {
   display:inline-block;
 	float:left;
 	margin-left:60px;  
 }
 
-.list_right {
+.exp_list_right {
 	margin-left:325px;
 }
 
@@ -205,7 +205,7 @@ nav a:hover, nav a:focus {
 	display:block;
 }
 
-.under_container {
+.info_container {
 	background-image:url("../image/under-bg.png");
 	height:320px;
 	width:1060px;
@@ -246,31 +246,31 @@ nav a:hover, nav a:focus {
   margin-bottom:13px;
 }
 
-.under_left_content {
+.personal_info {
 	float:left;
 	margin-top:40px;
 	border-right:2px dashed #000;
 	border-right:2px dashed RGBA(0, 0, 0, 0.6);
 }
 
-.under_right_content img {
+.educational_bg img {
 	margin-left:55px;
 }
 
-.under_right_content {
+.educational_bg {
 	margin-top:40px;
 	float:right;
 }
 
-.under_right_content h1 {
+.educational_bg h1 {
 	margin-bottom:25px;
 }
 
-.under_right_content section {
+.educational_bg section {
 	margin-bottom:30px;
 }
 
-.under_right_content .title {
+.educational_bg .title {
 	background-color:#dcdddd;
 	font-size:15px;
 	font-weight:bold;
@@ -280,7 +280,7 @@ nav a:hover, nav a:focus {
 	margin-right:15px;
 }
 
-.under_right_content .content {
+.educational_bg .content {
   font-size:13px;
 	color:#595757;
   display:block;
