@@ -312,40 +312,40 @@ footer div div {
 	width:260px;
 }
 
-div.footer_left, div.footer_center, div.footer_right {
+div.footer_info, div.footer_develop, div.footer_links {
 	height:60px;
 	margin-top:15px;
 }
 
-.footer_left {
+.footer_info {
 	float:left;
 	width:380px;
   line-height:15px;
 	border-right:1px solid #fff;
 }
 
-.footer_center {
+.footer_develop {
 	display:inline-block;
 	width:330px;
 	border-right:1px solid #fff;
 }
 
-.footer_center div {
+.footer_develop div {
 	margin-top:15px;
 }
 
-.footer_right {
+.footer_links {
 	float:right;
 }
 
-.footer_right div {
+.footer_links div {
 	width:auto;
 	margin-top:15px;
 	margin-right:20px;	
 	*margin-top:-60px;
 }
 
-.footer_right div span {
+.footer_links div span {
 	display:inline-block;
 	height:30px;
 	vertical-align:middle;
@@ -353,11 +353,11 @@ div.footer_left, div.footer_center, div.footer_right {
 	*padding-bottom:5px;
 }
 
-.footer_right div, .footer_right span, .footer_right span {
+.footer_links div, .footer_right span, .footer_right span {
 	margin-left:3px;
 }
 
 
-.footer_right a span:hover {
+.footer_links a span:hover {
 	text-decoration:underline;
 }
