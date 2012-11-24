@@ -11,22 +11,46 @@ body {
 
 body > header {
 	height:80px;
-	width:980px;
+	width:800px;
 	margin:0 auto;
-	margin-top:100px;
+	margin-top:80px;
 	margin-bottom:30px;
 }
 
-.header_content {
-	background-image:url("../image/article_hbg.png"); 
-	width:900px;
-	height:80px;
-}
 
 .icon {
 	height:80px;
 	width:80px;
 	float:left;
+	display:block;
+}
+
+.header_content {
+	background-image:url("../image/article_hbg.png"); 
+	background-repeat:no-repeat;
+	float:right;
+	width:700px;
+	height:120px;
+	margin-top:-20px;
+}
+
+.header_content .title {
+	font-size:38px;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.header_content ul {
+	margin-left:26px;
+}
+
+.header_content li {
+	list-style:square;
+	font-family:"微軟正黑體";
+	font-size:20px;
+	float:left;
+	margin-right:40px;
 }
 
 body > section {
