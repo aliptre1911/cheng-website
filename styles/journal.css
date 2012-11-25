@@ -11,7 +11,7 @@ body {
 
 body > header {
 	height:80px;
-	width:800px;
+	width:830px;
 	margin:0 auto;
 	margin-top:80px;
 	margin-bottom:30px;
@@ -41,7 +41,6 @@ body > header {
 
 .header_content li {
 	list-style:square;
-	
 	font-size:20px;
 	float:left;
 	margin-right:40px;	
@@ -60,7 +59,7 @@ body > header {
 
 .main_container {
 	margin:0 auto;
-  width:770px;
+  width:830px;
 }
 
 .main_title {	
@@ -68,7 +67,6 @@ body > header {
 	width:100%;
 	padding-top:3px;
 	padding-bottom:3px;
-	padding-left:15px;
 	margin-top:8px;
 }
 
