@@ -2,16 +2,21 @@
 
 body {
 	font-size:16px;
-	font-family:"Book Antiqua", "微軟正黑體";
+	font-family:"微軟正黑體";
 	font-weight:normal;	
 	width:100%;
 	height:100%;
   padding-bottom:30px;
 }
 
+.main_container {
+	margin:0 auto;
+  width:880px;
+}
+
 body > header {
 	height:80px;
-	width:800px;
+	width:880px;
 	margin:0 auto;
 	margin-top:80px;
 	margin-bottom:30px;
@@ -23,25 +28,26 @@ body > header {
 	width:80px;
 	float:left;
 	display:block;
+	margin-left:20px;
 }
 
 .header_content {
 	background-image:url("../image/article_hbg.png"); 
 	background-repeat:no-repeat;
 	float:right;
-	width:700px;
-	height:120px;
-	margin-top:-30px;
+	width:780px;
+	height:140px;
+	margin-top:-36px;
+	margin-right:-5px;
 }
 
 .header_content ul {
-	margin-top:90px;
-	margin-left:26px;
+	margin-top:96px;
+	margin-left:36px;
 }
 
 .header_content li {
-	list-style:square;
-	
+	list-style:square;	
 	font-size:20px;
 	float:left;
 	margin-right:40px;	
@@ -52,39 +58,43 @@ body > header {
 	text-decoration:none;
 }
 
+.header_content a:hover, .header_content a:focus {
+	text-decoration:underline;
+}
+
 .header_img {	
 	background-image:url("../image/article_title.png");
 	background-repeat:no-repeat;	
-	margin-left:-42px;
+	margin-left:-35px;
 }
 
-.main_container {
-	margin:0 auto;
-  width:770px;
-}
-
-.main_title {	
+.article_title {	
 	background:#B5B5B6;
+	font-size:17px;
 	width:100%;
 	padding-top:3px;
 	padding-bottom:3px;
-	padding-left:15px;
-	margin-top:8px;
+	margin-bottom:30px;
 }
 
-.articles {
-	padding-top:20px;
+.article_title h1 {
+	margin-left:20px;
+}
+
+.published_articles, .submission_articles {
+	padding-top:10px;
 }
 
 .thesis {
 	margin-bottom:30px;
+	height:60px;
 }
 
 .thesis h1 {
-	font-family:"微軟正黑體";
-	border-right:1px solid RGBA(0, 0, 0, 0.9);
+	border-right:3px solid RGBA(0, 0, 0, 0.4);
+	font-family:"微軟正黑體";	
 	font-size:43px;
-	float:left;
+	float:left;	
 	margin-right:10px;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -92,5 +102,5 @@ body > header {
 }
 
 .thesis p {
-	line-height:18px;
+	line-height:18px;	
 }
