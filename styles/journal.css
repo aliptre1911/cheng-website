@@ -2,7 +2,7 @@
 
 body {
 	font-size:16px;
-	font-family:"DFLiSong W5-WIN-BF*", "微軟正黑體";
+	font-family:"Book Antiqua", "微軟正黑體";
 	font-weight:normal;	
 	width:100%;
 	height:100%;
@@ -31,29 +31,42 @@ body > header {
 	float:right;
 	width:700px;
 	height:120px;
-	margin-top:-20px;
-}
-
-.header_content .title {
-	font-size:38px;
-	font-weight:bold;
-	margin-top:20px;
-	margin-bottom:20px;
+	margin-top:-30px;
 }
 
 .header_content ul {
+	margin-top:90px;
 	margin-left:26px;
 }
 
 .header_content li {
 	list-style:square;
-	font-family:"微軟正黑體";
+	
 	font-size:20px;
 	float:left;
-	margin-right:40px;
+	margin-right:40px;	
 }
 
-body > section {
+.header_content a {
+	color:#000;
+	text-decoration:none;
+}
+
+.header_img {	
+	background-image:url("../image/article_title.png");
+	background-repeat:no-repeat;	
+	margin-left:-42px;
+}
+
+.main_container {
 	margin:0 auto;
-  width:1060px;
+  width:815px;
+}
+
+.main_title {	
+	background:#B5B5B6;
+	width:100%;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:15px;
 }
