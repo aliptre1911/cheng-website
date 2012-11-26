@@ -2,7 +2,7 @@
 
 body {
 	font-size:16px;
-	font-family:"微軟正黑體";
+	font-family:"微軟正黑體", "Book Antiqua", "華康儷中宋";
 	font-weight:normal;	
 	width:100%;
 	height:100%;
@@ -96,8 +96,7 @@ body > header {
 }
 
 .thesis h1 {
-	border-right:3px solid RGBA(0, 0, 0, 0.4);
-	font-family:"微軟正黑體";	
+	border-right:2px solid RGBA(0, 0, 0, 0.4);	
 	font-size:43px;
 	float:left;	
 	margin-right:10px;
