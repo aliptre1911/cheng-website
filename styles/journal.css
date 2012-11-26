@@ -1,84 +1,6 @@
-@charset "UTF-8";
-
-body {
-	font-size:16px;
-	font-family:"微軟正黑體", "Book Antiqua", "華康儷中宋";
-	font-weight:normal;	
-	width:100%;
-	height:100%;
-  padding-bottom:30px;
-}
-
-b {
-	font-weight:bold;
-}
-
-i {
-	font-style:italic;
-}
-
-.main_container {
-	margin:0 auto;
-  width:880px;
-}
-
-body > header {
-	height:80px;
-	width:880px;
-	margin:0 auto;
-	margin-top:80px;
-	margin-bottom:30px;
-}
-
-
-.icon {
-	height:80px;
-	width:80px;
-	float:left;
-	display:block;
-	margin-left:20px;
-}
-
-.header_content {
-	background-image:url("../image/article_hbg.png"); 
-	background-repeat:no-repeat;
-	float:right;
-	width:780px;
-	height:140px;
-	margin-top:-36px;
-	margin-right:-5px;
-}
-
-.header_content ul {
-	margin-top:96px;
-	margin-left:36px;
-}
-
-.header_content li {
-	list-style:square;	
-	font-size:20px;
-	float:left;
-	margin-right:40px;	
-}
-
-.header_content a {
-	color:#000;
-	text-decoration:none;
-}
-
-.header_content a:hover, .header_content a:focus {
-	text-decoration:underline;
-}
-
-.header_img {	
-	background-image:url("../image/article_title.png");
-	background-repeat:no-repeat;	
-	margin-left:-35px;
-}
-
 .article_title {	
 	background:#B5B5B6;
-	font-family:"華康儷中宋";
+	font-family:"�رd�פ���";
 	font-size:17px;
 	width:100%;
 	padding-top:3px;
@@ -92,23 +14,4 @@ body > header {
 
 .published_articles, .submission_articles {
 	padding-top:10px;
-}
-
-.thesis {
-	margin-bottom:30px;
-	height:60px;
-}
-
-.thesis span {
-	border-right:2px solid RGBA(0, 0, 0, 0.4);	
-	font-size:43px;
-	float:left;	
-	margin-right:10px;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-right:10px;
-}
-
-.thesis p {
-	line-height:18px;	
 }
