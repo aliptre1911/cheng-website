@@ -9,6 +9,10 @@ body {
   padding-bottom:30px;
 }
 
+b {
+	font-weight:bold;
+}
+
 .main_container {
 	margin:0 auto;
   width:880px;
@@ -70,6 +74,7 @@ body > header {
 
 .article_title {	
 	background:#B5B5B6;
+	font-family:"華康儷中宋";
 	font-size:17px;
 	width:100%;
 	padding-top:3px;
