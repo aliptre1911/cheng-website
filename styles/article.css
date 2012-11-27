@@ -86,14 +86,13 @@ body > header {
 	display:table-cell;
 	vertical-align:middle;
 	text-align:center;
-	border-right:2px solid RGB(0, 0, 0);	
-	border-right:2px solid RGBA(0, 0, 0, 0.6);
-	font-size:43px;
+	border-right:1px solid RGB(0, 0, 0);	
+	border-right:1px solid RGBA(0, 0, 0, 0.6);
+	font-size:40px;
 	float:left;	
 	margin-right:10px;
-	margin-bottom:10px;
-	padding-top:5px;
-	padding-bottom:5px;
+	padding-top:10px;
+	padding-bottom:10px;
 	padding-right:10px;
 }
 
