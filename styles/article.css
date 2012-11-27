@@ -78,12 +78,16 @@ body > header {
 }
 
 .thesis {
+	display:table;
 	margin-bottom:30px;
-	height:60px;
 }
 
 .thesis span {
-	border-right:2px solid RGBA(0, 0, 0, 0.4);	
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	border-right:2px solid RGB(0, 0, 0);	
+	border-right:2px solid RGBA(0, 0, 0, 0.6);
 	font-size:43px;
 	float:left;	
 	margin-right:10px;
@@ -94,5 +98,9 @@ body > header {
 }
 
 .thesis p {
+	display:table-cell;
+	vertical-align:middle;
+	width:780px;
+	height:60px;
 	line-height:18px;	
 }
