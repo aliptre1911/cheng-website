@@ -45,3 +45,29 @@ body > header {
 	height:140px;
 	margin-top:-36px;
 	margin-right:-10px;
+}
+
+.header_img {    	
+  margin-left:-35px;
+}
+	  	
+.header_content ul {
+  margin-top:96px;
+  margin-left:36px;
+}
+
+.header_content li {
+  list-style:square;  
+  font-size:20px;
+  float:left;
+  margin-right:40px;  
+}
+
+.header_content a {
+  color:#000;
+  text-decoration:none;
+}
+
+.header_content a:hover, .header_content a:focus {
+  text-decoration:underline;
+}
