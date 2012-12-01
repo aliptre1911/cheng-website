@@ -3,4 +3,39 @@
 .header_content {
 	background-image:url("../image/project_hbg.png"); 
 	background-repeat:no-repeat;
+	margin-right:5px;	
+}
+
+.header_content ul {
+	margin-left:25px;
+}
+
+.header_img {
+	margin-left:15px;
+	margin-top:30px;
+}
+
+.data {
+	margin-bottom:50px;
+}
+
+.data span {
+	border-right:1px solid RGB(0, 0, 0);	
+	font-size:40px;
+	float:left;	
+	margin-right:30px;
+	margin-left:28px;
+	padding-bottom:80px;
+	padding-right:10px;
+}
+
+.data p {
+	width:780px;
+	height:120px;
+	font-weight:bold;
+	line-height:18px;	
+}
+
+.other .header_img {
+	margin-bottom:50px;
 }
