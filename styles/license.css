@@ -22,8 +22,9 @@
 
 .data {
 	display:table;
-	background:#F7F8F8;
-	height:140px;
+	
+	background-image:url("../image/license_bg.png");
+	height:146px;
 	width:400px;
 	margin-left:25px;
 	margin-right:25px;
@@ -36,7 +37,7 @@
 	text-align:center;
 	background:#C9CACA;
 	font-size:40px;
-	width:40px;
+	width:55px;
 	height:140px;
 	padding-left:10px;
 	padding-right:10px;
