@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.header_content {
-	background-image:url("../image/article_hbg.png"); 
-	background-repeat:no-repeat;
-}
-
 .thesis {
 	display:table;
 	margin-bottom:30px;

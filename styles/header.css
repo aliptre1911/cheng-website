@@ -38,17 +38,32 @@ body > header {
 	display:block;
 }
 
-.header_content {	
+.page_title {
+	font-family:"華康儷中宋";
+	font-size:40px;
+	margin-top:38px;
+}
+
+.STU {
+	font-family:"Book Antiqua";
+	font-size:24px;
+	margin-top:15px;
+	margin-left:5px;
+}
+
+.header_content {
+	background-image:url("../image/header.png");
+	background-repeat:no-repeat;
 	float:right;
 	width:780px;
 	height:140px;
 	margin-top:-36px;
-	margin-right:10px;
+	margin-right:5px;
 }
 
 .header_content ul {
-  margin-top:96px;
-  margin-left:33px;
+  margin-top:20px;
+  margin-left:25px;
 }
 
 .header_content li {
