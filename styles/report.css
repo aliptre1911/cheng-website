@@ -35,6 +35,7 @@
 
 .data p {
 	width:780px;
-	height:60px;
 	line-height:18px;	
+	margin-left:75px;
+	padding-bottom:20px;
 }
