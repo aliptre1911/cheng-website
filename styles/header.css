@@ -19,12 +19,12 @@ i {
 
 .main_container {
 	margin:0 auto;
-  width:880px;
+  width:840px;
 }
 
 body > header {
 	height:80px;
-	width:880px;
+	width:840px;
 	margin:0 auto;
 	margin-top:80px;
 	margin-bottom:30px;
@@ -41,7 +41,7 @@ body > header {
 .page_title {
 	font-family:"華康儷中宋";
 	font-size:40px;
-	margin-top:38px;
+	margin-top:33px;
 }
 
 .STU {
@@ -55,9 +55,9 @@ body > header {
 	background-image:url("../image/header.png");
 	background-repeat:no-repeat;
 	float:right;
-	width:780px;
-	height:140px;
-	margin-top:-36px;
+	width:740px;
+	height:121px;
+	margin-top:-30px;
 	margin-right:5px;
 }
 
