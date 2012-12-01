@@ -4,3 +4,43 @@
 	background-image:url("../image/report_hbg.png"); 
 	background-repeat:no-repeat;
 }
+
+.main_container {
+	margin-top:80px;
+}
+
+.content {
+	padding:16px 0;
+	background:#595757;
+}
+
+.content ul {
+	background:#fff;
+}
+
+.data {
+	background:#F7F8F8;
+	padding:25px 0;
+	padding-left:20px;
+}
+
+.data:nth-child(even) {
+	background:#DCDDDD;
+}
+
+.data span {
+	border-right:1px solid RGB(0, 0, 0);	
+	border-right:1px solid RGBA(0, 0, 0, 0.6);
+	font-size:40px;
+	float:left;	
+	margin-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+.data p {
+	width:780px;
+	height:60px;
+	line-height:18px;	
+}

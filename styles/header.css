@@ -36,7 +36,6 @@ body > header {
 	width:80px;
 	float:left;
 	display:block;
-	margin-left:15px;
 }
 
 .header_content {	
@@ -44,7 +43,7 @@ body > header {
 	width:780px;
 	height:140px;
 	margin-top:-36px;
-	margin-right:-5px;
+	margin-right:10px;
 }
 
 .header_img {    	
