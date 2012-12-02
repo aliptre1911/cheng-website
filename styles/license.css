@@ -23,7 +23,6 @@
 
 .data {
 	display:table;
-	
 	background-image:url("../image/license_bg.png");
 	height:146px;
 	width:400px;
@@ -42,6 +41,7 @@
 	height:140px;
 	padding-left:10px;
 	padding-right:10px;
+	*line-height:140px;
 }
 
 .data p {
@@ -51,4 +51,5 @@
 	line-height:18px;	
 	margin-left:75px;
 	padding-left:20px;
+	*margin-top:-90px;
 }
