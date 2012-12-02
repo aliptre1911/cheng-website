@@ -24,6 +24,7 @@
 	padding-left:20px;
 	padding-top:20px;
 	padding-bottom:20px;
+	width:820px;
 }
 
 .data:nth-child(even) {
@@ -43,7 +44,6 @@
 }
 
 .data p {
-	width:780px;
 	display:table-cell;
 	vertical-align:middle;
 	font-weight:bold;
