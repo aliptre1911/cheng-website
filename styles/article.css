@@ -3,6 +3,7 @@
 .thesis {
 	display:table;
 	margin-bottom:30px;
+	width:840px;
 }
 
 .thesis span {
@@ -21,7 +22,6 @@
 .thesis p {
 	display:table-cell;
 	vertical-align:middle;
-	width:780px;
 	height:60px;
 	line-height:18px;	
 }
