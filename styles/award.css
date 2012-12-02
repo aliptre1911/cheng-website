@@ -44,8 +44,9 @@
 }
 
 .data p {
-	display:table-cell;
+	display:table-cell;	
 	vertical-align:middle;
+	width:740px;	
 	font-weight:bold;
 	line-height:18px;	
 	margin-left:75px;
