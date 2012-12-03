@@ -22,10 +22,6 @@
 	padding-bottom:5px;
 }
 
-.content ul {
-	background:#fff;
-}
-
 .data {
 	display:table;
 	background:#F7F8F8;
@@ -35,7 +31,7 @@
 	width:820px;
 }
 
-.data:nth-child(even), .Experience tr:nth-child(even) {
+.data:nth-child(even), .Experience tr:nth-child(even), .even {
 	background:#DCDDDD;
 }
 
@@ -64,17 +60,15 @@ td {
 	line-height:18px;	
 	margin-left:75px;
 	vertical-align:middle;
-	padding:15px;
-}
-
-.topic {
-	vertical-align:top;
+	padding:15px;		
 }
 
 .research td {
 	width:50%;
+	text-indent:-18px;
 }
 
-.even {
-	background:#DCDDDD;
+td.topic {
+	vertical-align:top;
+	text-indent:0;
 }
