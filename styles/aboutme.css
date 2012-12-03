@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.main_container {
+	margin-top:130px;
+}
+
+.point {
+	margin-left:40px;
+	margin-top:15px;
+}
+
+.main_container section {
+	margin-bottom:60px;
+}
+
+.main_container section h1 {
+	background:#595757;
+	font-size:30px;
+	color:#eee;
+	padding-left:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.content ul {
+	background:#fff;
+}
+
+.data {
+	display:table;
+	background:#F7F8F8;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	width:820px;
+}
+
+.data:nth-child(even), .Experience tr:nth-child(even) {
+	background:#DCDDDD;
+}
+
+.data p {
+	display:table-cell;	
+	vertical-align:middle;
+	width:740px;	
+	font-weight:bold;
+	line-height:18px;	
+	margin-left:75px;
+}
+
+table {
+	margin-top:20px;
+	border-collapse:collapse;
+}
+
+thead {
+	font-size:20px;
+	text-align:center;
+}
+
+td {
+	width:300px;
+	font-weight:bold;
+	line-height:18px;	
+	margin-left:75px;
+	vertical-align:middle;
+	padding:15px;
+}
+
+.topic {
+	vertical-align:top;
+}
+
+.research td {
+	width:50%;
+}
+
+.even {
+	background:#DCDDDD;
+}
