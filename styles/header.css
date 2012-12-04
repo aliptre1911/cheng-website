@@ -30,7 +30,6 @@ body > header {
 	margin-bottom:30px;
 }
 
-
 .icon {
 	height:80px;
 	width:80px;
@@ -80,4 +79,6 @@ body > header {
 
 .header_content a:hover, .header_content a:focus {
   text-decoration:underline;
+	color:#000;
+	background-color:#FFF100;
 }
